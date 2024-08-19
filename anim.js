@@ -1,8 +1,8 @@
 // Sincronizar las letras con la canción
 var audio = document.querySelector("audio");
 var lyrics = document.querySelector("#lyrics");
-
-// Array de objetos que contiene cada línea y su tiempo de aparición en segundos
+/*
+ Array de objetos que contiene cada línea y su tiempo de aparición en segundos
 var lyricsData = [
   { text: "At the time", time: 15 },
   { text: "The whisper of birds", time: 18 },
@@ -32,7 +32,7 @@ var lyricsData = [
   { text: "In the mood for the flowers", time: 188 },
   { text: "Love.", time: 140 },
 ];
-
+*/
 // Animar las letras
 function updateLyrics() {
   var time = Math.floor(audio.currentTime);
